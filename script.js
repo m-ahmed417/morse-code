@@ -20,6 +20,6 @@ const submit = document.querySelector("#submit");
 
 submit.addEventListener("click", () => {
   const inputText = input.value;
+  const convertedToMorse = englishToMorse(inputText);
+  const finalOutput = output;
 });
-
-//get input field text, run this as parameters for the function and display result in output field.
