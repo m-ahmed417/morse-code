@@ -18,8 +18,8 @@ const input = document.querySelector("#input");
 const output = document.querySelector("#output");
 const submit = document.querySelector("#submit");
 
-submit.addEventListener("click",() =>
-const display=input
-)
+submit.addEventListener("click", () => {
+  const inputText = input.value;
+});
 
 //get input field text, run this as parameters for the function and display result in output field.
